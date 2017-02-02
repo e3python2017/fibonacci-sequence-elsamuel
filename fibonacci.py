@@ -4,15 +4,20 @@ def fibonacci(n):
     result = []
 
     # 1. Create a variable named 'a' and set it to 1
-    # a = 1
+    a = 1
 
     # 2. Create a variable named 'b' and set it to 1
+<<<<<<< Updated upstream
     # b = 1
+=======
+    b = 1
+>>>>>>> Stashed changes
 
     while a < n:
         result.append(a)
 
         # 3. set a variable 'tmp_var' equal to 'b'
+<<<<<<< Updated upstream
         # tmp_var = b
 
         # 4. set a variable 'b' equal to the sum of 'b' and 'a'
@@ -20,6 +25,15 @@ def fibonacci(n):
 
         # 5. set the variable 'a' to 'tmp_var'
         # a = tmp_var
+=======
+        tmp_var = b
+
+        # 4. set a variable 'b' equal to the sum of 'b' and 'a'
+        b = b+a
+
+        # 5. set the variable 'a' to 'tmp_var'
+        a = tmp_var
+>>>>>>> Stashed changes
     return result
 
 print(fibonacci(100))
