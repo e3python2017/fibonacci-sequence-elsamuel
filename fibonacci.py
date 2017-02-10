@@ -29,7 +29,7 @@ def fibonacci(n):
         tmp_var = b
 
         # 4. set a variable 'b' equal to the sum of 'b' and 'a'
-        b = b+a
+        b = b + a
 
         # 5. set the variable 'a' to 'tmp_var'
         a = tmp_var
